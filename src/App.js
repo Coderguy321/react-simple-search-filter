@@ -87,3 +87,8 @@ class App extends Component {
 }
 
 export default App;
+
+// //<Modal {...this.props} title='Modal heading' animation={false}>
+// would be the same as
+
+// <Modal a={this.props.a} b={this.props.b} title='Modal heading' animation={false}>
